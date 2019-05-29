@@ -1,4 +1,4 @@
-# H1NLP modeling techniques used:
+# H1 NLP modeling techniques used:
 1.Bag of Words
 2.TF-IDF
 3.Word embeddings
