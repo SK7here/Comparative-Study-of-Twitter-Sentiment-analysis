@@ -1,14 +1,14 @@
-# H1 NLP modeling techniques used:
-1.Bag of Words
-2.TF-IDF
-3.Word embeddings
-<pre>1.Word2Vec</pre>
-<pre>2.Doc2Vec</pre>
+# NLP modeling techniques used:<br>
+&nbsp1.Bag of Words<br>
+&nbsp2.TF-IDF<br>
+&nbsp3.Word embeddings<br>
+&nbsp&nbsp1.Word2Vec<br>
+&nbsp&nbsp2.Doc2Vec<br>
+<br>
 
-
-# H1Classification algorithms used:
-1.Logistic Regression
-2.Support vector machine
-3.Random Forest
-4.Extreme gradient boosting
-5.Light gradient boosting
+# H1Classification algorithms used:<br>
+&nbsp1.Logistic Regression<br>
+&nbsp2.Support vector machine<br>
+&nbsp3.Random Forest<br>
+&nbsp4.Extreme gradient boosting<br>
+&nbsp5.Light gradient boosting<br>
