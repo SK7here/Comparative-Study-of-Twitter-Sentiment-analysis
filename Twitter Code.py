@@ -109,6 +109,7 @@ combi['tidy_tweet'] = combi['tidy_tweet'].str.replace("[^a-zA-Z#]", " ")
 #Removing short words (assuming that less than 3 letter words will not much influence over sentiment)
     #lambda function is similar to macros
     #apply funcion applies particular function over every element
+    #Here, we join the words with empty string
 combi['tidy_tweet'] = combi['tidy_tweet'].apply(lambda x: ' '.join([w for w in x.split() if len(w)>3]))
 
 
@@ -244,8 +245,8 @@ tfidf = tfidf_vectorizer.fit_transform(combi['tidy_tweet'])
 
     
     #Combination of  CBOW (Continuous bag of words) and Skip-gram model.
-        #CBOW-> tends to predict the probability of a word given a context
-        #Skip-gram model-> tries to predict the context for a given word.
+        #CBOW-> tends to predict the target word using surrounding words present in window
+        #Skip-gram model-> tries to predict the surrounding words present in the window using the currrent word.
 
 
     #Softmax-> converts vector as probability distribution
