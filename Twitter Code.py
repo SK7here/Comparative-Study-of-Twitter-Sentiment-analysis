@@ -354,6 +354,7 @@ print(labeled_tweets[:6])
 
 #Doc2vec is a small extension to the CBOW model.
 #Instead of using just words to predict the next word, we also added paragraph ID which is document-unique.
+    # Word vectors represent concept of a word, while document vector represent the concept of a document
 
 
 #Training doc2vec model
