@@ -245,8 +245,8 @@ tfidf = tfidf_vectorizer.fit_transform(combi['tidy_tweet'])
 
     
     #Combination of  CBOW (Continuous bag of words) and Skip-gram model.
-        #CBOW-> tends to predict the target word using surrounding words present in window
-        #Skip-gram model-> tries to predict the surrounding words present in the window using the currrent word.
+        #CBOW-> tends to predict the target/current word using surrounding words present in window
+        #Skip-gram model-> tries to predict the surrounding words present in the window using the target/current word.
 
 
     #Softmax-> converts vector as probability distribution
